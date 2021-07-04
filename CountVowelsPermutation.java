@@ -1,4 +1,4 @@
-class Solution {
+class CountVowelsPermutation {
     public int countVowelPermutation(int n) {
         int MOD = (int) (1e9 + 7);
         long[][] dp = new long[n + 1][5];
